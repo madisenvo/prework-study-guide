@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(-144deg, #FFB6C1 0%, #C71585 100%);
+    color: white;
+}
+h1,
+h2 {
+    text-align: center;
+}
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@counter-style repeating-emoji {
+    system: cyclic;
+    symbols: "\1F338" "\1F33B" "\1F33A" "\1F337" "\1F33C";
+    suffix: " ";
+}
+ul {
+    list-style-type: repeating-emoji;
+    padding-left: 40px;
+    font-size: 20px;
+    
+}
+p {
+    text-align: center;
+    font-size: 30px;
+  }
+  .card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid #FFC0CB;
+    box-shadow: 5px 10px #DB7093;
+  }
+  
