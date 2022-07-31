@@ -23,7 +23,7 @@ img {
 @counter-style repeating-emoji {
     system: cyclic;
     symbols: "\1F338" "\1F33B" "\1F33A" "\1F337" "\1F33C";
-    suffix: " ";
+    suffix: "  ";
 }
 ul {
     list-style-type: repeating-emoji;
