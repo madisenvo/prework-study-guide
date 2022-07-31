@@ -20,13 +20,13 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-@counter-style repeating-emoji {
+@counter-style emoji {
     system: cyclic;
     symbols: "\1F338" "\1F33B" "\1F33A" "\1F337" "\1F33C";
-    suffix: " ";
+    suffix: "  ";
 }
 ul {
-    list-style-type: repeating-emoji;
+    list-style-type: emoji;
     padding-left: 40px;
     font-size: 20px;
     
